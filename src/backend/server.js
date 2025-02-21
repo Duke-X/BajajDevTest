@@ -6,7 +6,7 @@ const app = express();
 const PORT = 5000;
 
 // MIDDLEWARE
-app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(bodyParser.json());
 
 // POST

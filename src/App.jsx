@@ -22,7 +22,7 @@ function App() {
         throw new Error("Invalid input: data must be an array");
       }
 
-      const res = await axios.post("http://localhost:5000/bfhl", data);
+      const res = await axios.post("https://bajajdevtest.onrender.com/bfhl", data);
       setResponse(res.data);
     } catch (err) {
       setError(err.message || "An error occurred");
