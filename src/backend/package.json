@@ -4,9 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "start": "node src/backend/server.js"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
